@@ -1,2 +1,2 @@
-# MyPriject
+# MyProject
 online store
