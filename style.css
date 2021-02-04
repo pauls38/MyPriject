@@ -11,8 +11,6 @@ a {
     text-decoration: none;
 }
 
-
-
 .header {
     height: 100px;
     width: 1600px;
@@ -59,9 +57,31 @@ a {
     font-size: 27px;
     line-height: 32px;
     font-weight: 300;
+    text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.025em;
     color: #222222;
+}
+
+.bran {
+    margin-left: 9px;
+    margin-top: 13px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 27px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.d {
+    margin-right: 37px;
+    margin-top: 13px;
+    font-family: 'Lato', sans-serif;
+    color: #f16d7f;
+    font-size: 27px;
+    font-weight: 550;
+    text-align: center;
 }
 
 .logo_img {
@@ -509,7 +529,7 @@ ul {
 }
 
 .button {
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 18px;
     line-height: 54px;
     font-weight: 700;
@@ -540,15 +560,13 @@ ul {
     display: flex;
 }
 
-.offer-left {}
-
 .offer-left {
     width: 767px;
     height: 529px;
 }
 
 .promo_offer {
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 53.7px;
     line-height: 1.2;
     font-weight: 700;
@@ -557,7 +575,7 @@ ul {
 }
 
 .promo_offer_color {
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 53.7px;
     line-height: 1.2;
     font-weight: 700;
@@ -566,7 +584,7 @@ ul {
 }
 
 .promo_offer_small {
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: 0.025em;
@@ -631,7 +649,9 @@ ul {
     height: 438px;
     display: flex;
     background: url(img/layer_41_2195.png);
-    margin: 97px 0 109px;
+    opacity: 0.45;
+    filter: alpha(opacity=25);
+    margin-top: 97px;
 }
 
 .subscribe-left {
@@ -667,6 +687,7 @@ ul {
 
 .my-text h4 {
     margin-top: 19px;
+    color: #f16d7f;
 }
 
 .my-text h6 {
@@ -690,7 +711,7 @@ ul {
 
 .my-button:hover {
     color: #212121;
-    background-color: #f8c2e3;
+    background-color: #f16d7f;
 }
 
 .subscribe-right {
@@ -698,45 +719,6 @@ ul {
     display: flex;
     border-left: 1px solid #ffffff;
 
-}
-
-.slider {
-    width: 1600px;
-    height: 458px;
-}
-
-.footer {
-    width: 1600px;
-    height: 79px;
-    margin-bottom: -79px;
-    background-color: #e6e6e6;
-}
-
-.social {
-    display: inline-flex;
-
-    width: 1600px;
-    height: 79px;
-}
-
-.all-right {
-    width: 260px;
-    display: inline-flex;
-    align-items: center;
-    margin-left: 228px;
-}
-
-.social-link {
-    width: 32px;
-    height: 32px;
-    font-size: 32px;
-    margin-left: 8px;
-}
-
-.social-links {
-    display: inline-flex;
-    align-items: center;
-    margin-left: 690px;
 }
 
 .subscribe {
@@ -796,4 +778,124 @@ ul {
     border: 1px solid #e6e6e6;
     border-radius: 0px 23px 23px 0px;
     background: #f16d7f;
+}
+
+.brand-description {
+    width: 100%;
+    height: 458px;
+}
+
+.brand-history {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1140px;
+    height: 100%;
+}
+
+.footer-logotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 427px;
+    margin: 18px 0 0 45px;
+}
+
+.footer-logo {
+    display: flex;
+    width: 100%;
+    height: 51px;
+}
+
+.brand-history-text {
+    font-family: 'Lato', sans-serif;
+    color: #898989;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: left;
+    text-transform: none;
+    padding-top: 13px;
+    margin-left: 0;
+}
+
+.futer-naverap {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
+
+.footer-company {
+    margin-left: 6px;
+}
+
+.footer-information {
+    margin-left: 39px;
+}
+
+.brand-description h3 {
+    font-family: 'Lato', sans-serif;
+    color: #f16d7f;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 85px;
+    text-transform: uppercase;
+}
+
+.brand-description ul {
+    padding-bottom: 25px;
+}
+
+.brand-description li, a {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.brand-description a:hover {
+    color: #f16d7f;
+}
+
+.footer {
+    width: 1600px;
+    height: 79px;
+    margin-bottom: -79px;
+    background-color: #e6e6e6;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 160px;
+    width: 1140px;
+    height: 100%;
+}
+
+.all-right p {
+    font-family: 'Lato', sans-serif;
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 191px;
+}
+
+.social-links i {
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.social-links a:hover i {
+    color: #f16d7f;
 }
